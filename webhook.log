@@ -1,0 +1,9 @@
+2025-09-14T20:14:23.354Z - 🚀 Webhook server started on port 3000
+2025-09-14T20:14:23.356Z - 📍 Webhook URL: http://localhost:3000/webhook/solana
+2025-09-14T20:14:23.356Z - 🏥 Health check: http://localhost:3000/health
+2025-09-14T20:27:47.165Z - 🚀 Webhook server started on port 3000
+2025-09-14T20:27:47.167Z - 📍 Webhook URL: http://localhost:3000/webhook/solana
+2025-09-14T20:27:47.167Z - 🏥 Health check: http://localhost:3000/health
+2025-09-15T11:12:14.807Z - 🚀 Webhook server started on port 3000
+2025-09-15T11:12:14.809Z - 📍 Webhook URL: http://localhost:3000/webhook/solana
+2025-09-15T11:12:14.809Z - 🏥 Health check: http://localhost:3000/health

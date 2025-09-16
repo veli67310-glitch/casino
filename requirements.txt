@@ -1,0 +1,52 @@
+# Complete Casino Bot Requirements - WORKING VERSION
+
+# Core Telegram Bot - Compatible with solana httpx requirements
+python-telegram-bot==20.2
+
+# HTTP Requests for CryptoBot API and external services
+requests==2.31.0
+urllib3==2.0.7
+
+# Async Support for better performance
+aiohttp==3.9.1
+aiofiles==23.2.0
+
+# Database Support (SQLite is built-in with Python)
+aiosqlite==0.19.0
+
+# Security and Validation
+cryptography==41.0.7
+python-dateutil==2.8.2
+
+# Environment variables and configuration
+python-dotenv==1.0.0
+pytz==2023.3
+
+# Optional: Enhanced Features for production
+APScheduler==3.10.4
+psutil==5.9.6
+
+# Development and Testing (optional)
+# pytest==7.4.3
+# pytest-asyncio==0.21.1
+# black==23.11.0
+# flake8==6.1.0
+
+# Solana Integration - Basic functionality without anchorpy to avoid C++ build requirements
+solana>=0.30.0,<0.31.0
+solders>=0.18.0,<0.19.0
+# anchorpy>=0.17.0,<0.19.0  # Commented out due to zstandard C++ build dependency
+base58==2.1.1
+
+# QR Code and Image Generation
+qrcode==7.4.2
+Pillow==10.1.0
+
+# System Monitoring (already included in Enhanced Features section above)
+
+# Production deployment (optional)
+# gunicorn==21.2.0
+# uvicorn==0.24.0
+
+# Monitoring (optional)
+# prometheus-client==0.19.0
